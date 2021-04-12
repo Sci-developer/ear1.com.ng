@@ -1,0 +1,898 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding:1% 0 0 0 ;
+}
+
+
+.brand-name{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 0% 2%;font-size: 100%;
+    padding: 0 0 0 3%;
+}
+
+.navbar-lists{
+    display: flex;
+}
+
+.navbar-items{
+    list-style: none;
+    
+}
+
+.links{
+    color: white;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 100%;
+}
+
+
+.links:hover{
+    color: wheat;
+    text-decoration: none;
+}
+
+
+
+.toggle-button{
+    justify-content: space-between;
+    display: flex;
+    width: 30px;
+    height: 20px;
+    flex-direction: column;
+    display: none;
+  
+}
+
+.toggle-button .bar{
+    background-color: white;
+    width: 100%;
+    height: 3px;border-radius: 2px;
+    margin: .1rem 0 0 0;
+    color: white;
+}
+
+#bara{
+    width: 20px;
+}
+#barb{
+    width: 10px;
+}
+
+
+
+
+
+@media(max-width:900px){
+
+
+    .toggle-button,.bar{
+        display: flex;
+        margin-left: 91%;
+        bottom: 16px;
+        position: relative;
+    }
+
+  
+    
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar ul{
+        flex-direction: column;width: 100%;
+    }
+
+    .navbar-links{
+        display: none;
+    }
+
+    .navbar-links li{
+        display: block;
+        text-align: center;
+        text-align: center;
+        padding: 2% 0;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+}
+
+
+.build{
+    text-align: center;
+    background-color: green;
+    padding: 0 4%;
+  
+}
+
+
+
+.firstimage{
+    max-width: 100%;
+    padding: 2% 5% 0;
+    height: auto;
+    
+}
+.imageaa{
+    text-align: center;
+}
+
+.worda{
+    font-size: 280%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 5% 1%  ;
+    font-weight: bold;
+}
+
+.wordb{
+    font-size: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 2% 2%; 
+}
+
+
+
+
+@media(min-width:901px){
+
+    #forfans{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+        .secondimage{
+            margin: auto 0 auto 40%;
+            width: 50%;
+            min-height: 100%;
+            
+        }
+    
+        .nav-bar{
+            background-color: green;
+            display: flex;
+            justify-content: space-between;
+            padding:1% 0 0 0 ;
+            position: fixed;
+            width: 100%;
+        }
+
+
+        .imageab{
+            margin: auto ;
+        }
+    
+        
+        .imageaba{
+          display: none;
+        }
+    
+        .imageaa{
+            text-align: center;
+        }
+    
+        .firstimageb,.firstimage{
+            padding: 0 7%;
+        }
+
+        .imageaab{
+            display: none;
+        }
+    
+    
+    
+    }
+    
+    
+    .sectionc{
+        padding: 6% 0 4% 10% ;
+    }
+    
+    
+
+
+    
+
+
+
+
+
+
+.sectionb{
+    background-color:rgb(236, 229, 229);
+    padding: 4% 7%;
+}
+.what{
+    font-size: 250%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 3% 0;
+    font-weight: bold;
+    color: green;
+}
+
+.sub-what{
+    font-size: 100%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+.fans{
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: yellow;
+    border-radius: 25px;
+    display: inline-block;
+    padding:1% 3%;
+}
+
+.connect{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    padding-top: 2%;
+}
+
+.from{
+    font-size: 100%;
+    padding: 2% 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+@media(max-width:901px){
+
+    .firstimageb{
+        max-width: 100%;
+        padding: 0 6%;
+    }
+
+    .imageaa{
+        display: none;
+    }
+
+
+
+
+
+ 
+     .sectionb{
+         display: block;
+     }
+ 
+     
+       .imageaba{
+         text-align: center;
+         display: block;
+         padding: auto;
+       }
+ 
+       .imageab{
+         display: none;
+      }
+
+      .sectionc{
+        padding: 5%  10% 4% ;
+        
+    }
+
+    #forfans{
+        display: block;
+    }
+
+}    
+
+
+
+
+
+@media(min-width:901px){
+    .change{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+    .whatsapp{
+        width: 100%;
+        height: auto;
+     
+    }
+    
+}
+
+
+
+@media(max-width:901px){
+    .whatsapp{
+        width: 100%;
+        height: auto;
+        display: none;
+     
+    }
+    
+}
+
+
+
+.fansb{
+    font-size: 125%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: yellow;
+    border-radius: 25px;
+    display: inline-block;
+    padding:1% 3%;
+}
+
+.beassured{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 260%;
+    padding-top: 2%;
+    color: white;
+}
+
+.with{
+    font-size: 100%;
+    padding: 2% 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.sectiond{
+    background-color: green;
+    padding: 5% 10% 4%;
+}
+
+
+
+
+
+@media(min-width:901px){
+    .rowling{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .imagedee{
+        margin: 0 0 0 26%;
+        padding: 15% 0% 0 0;
+    }
+    
+    .imagedaa{
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+    .imagedacamo{
+        display: none;
+    }
+
+    .imaged{
+        position: relative;
+        z-index: -1;
+    }
+    
+    
+    
+    .influencer{
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        background-color: yellow;
+        border-radius: 25px;
+        display: inline-block;
+        padding:1% 3%;
+        
+    }
+    
+    .earn{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 250%;
+      
+        color: black;
+    }
+    
+    .earncopy{
+        font-size: 100%;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+    
+    
+    
+    .sectione{
+       padding: 15% 3%;
+    }
+
+    .imagee{
+       
+        background-color: rgb(17, 17, 17);
+       
+    }
+
+    .sectionf{
+       
+        padding: 7%;
+    }
+
+    .sectionbellick{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .imageea{
+        margin: 0 0 0 22%;
+    }
+}
+
+
+
+@media(max-width:900px){
+
+    .sectiond{
+        display:block;
+        width: 100%;
+      
+    }
+
+
+
+    .rowling{
+        display: block;
+       
+    }
+    
+    .imagedee{
+      display: none;
+    }
+
+
+    .imagedacamo{
+        text-align: center;
+        padding: 0 6%;
+    }
+    
+    .influencer{
+        font-size: 125%;
+        font-family: 'Montserrat', sans-serif;
+        background-color: yellow;
+        border-radius: 25px;
+        display: inline-block;
+        padding:1% 3%;
+        
+    }
+    
+    .earn{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 260%;
+      
+        color: black;
+    }
+    
+    .earncopy{
+        font-size: 100%;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+    
+    
+    
+    .sectione{
+       padding: 10% 10% 4%;
+    }
+
+
+    .sectionf{
+        display:block;
+        width: 100%;
+        padding: 7% 10%;
+    }
+
+    .imagee{
+        display: none;
+    }
+
+   
+
+
+}
+
+
+
+.influencerb{
+    font-size: 125%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 145, 0);
+    border-radius: 25px;
+    display: inline-block;
+    padding:1% 3%;
+    color: white;
+    
+}
+
+.filter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 260%;
+    padding-top: 2%;
+    color: white;
+}
+
+.filtercopy{
+    font-size: 100%;
+    padding: 2% 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+.sectionbellick{
+    background-color: black;
+    
+}
+
+
+
+
+.ease,.multi,.secure{
+    font-size: 200%;
+    color: black;
+    padding: 0 0 0 10%;
+}
+
+.easea,.multia,.securea{
+    font-size: 100%;
+    color: rgb(78, 76, 76);
+    padding: 0 0 0 10%;
+}
+
+.theear{
+    color: green;
+    font-size: 250%;
+    padding: 4% 0 0 6%;
+}
+
+
+
+@media(max-width:900px){
+
+    .lincoln{
+        display: block;
+        text-align: center;
+        padding: 7% 10% 0;
+    }
+
+    .scofield{
+        display: block;
+    }
+}
+
+
+
+@media(min-width:900px){
+
+    .sectioncaptain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .victor{
+       margin:30% 0 0 15%;
+       
+    }
+}
+
+
+
+
+
+
+.linkb,.linkai,.linkc,.linkd{
+    list-style: none;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+
+.beinthe{
+    font-size: 120%;
+}
+
+
+.mybuttona{
+    background-color: black;
+    color: white;
+    padding: .3% ; 
+    border-radius: 0 25px 20px 0 ;
+    height: 2rem;   
+}
+
+
+.first{
+    font-size: 105%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: .5;
+}
+
+
+.db,.fatty,.sucre,.sergeant{
+    display: inline-block;
+ 
+}
+
+.db,.fatty,.sucre{
+    padding: 0 0 0 10%;
+}
+
+
+.rowland{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 8% 0 4% 0;
+  
+}
+
+.social{
+    margin: auto;
+    padding: 0 0 0 6%;
+   
+
+}
+
+.halima{
+padding: 0 0 0 15%;}
+
+.fabs{
+   padding: .8rem;
+   background-color: rgb(187, 184, 184);
+   border-radius: 50%;
+   margin: 0 .5rem;
+}
+
+.earr{
+    padding: .5rem;
+    font-size: 130%;
+    font-weight: 600;
+}
+
+
+@media(max-width:900px){
+
+
+    .social{
+        display: none;
+    }
+
+    .rowland{
+        display: block;
+    }
+
+
+    .linkb,.linkai,.linkc,.linkd{
+        list-style: none;
+    }
+    
+    
+    .bold{
+        font-weight: bold;
+    }
+    
+    
+    .beinthe{
+        font-size: 120%;
+    }
+    
+    .mybuttona{
+        background-color: black;
+        color: white;
+        padding: .3% ; 
+        border-radius: 0 5px 5px 0 ;
+        height: 2rem;   
+        margin: 0 4% 0 0;
+    }
+    
+    .first{
+        font-size: 105%;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        line-height: .5;
+    }
+    
+    
+    
+    
+    .db,.fatty,.sucre,.sergeant{
+        padding: 8% 0 4% 0%;
+        display: block;
+    }
+    
+    
+    .halima{
+    padding: 0 0 0 8%;
+    
+    }
+    
+    .fabs{
+       padding: .8rem;
+       background-color: rgb(187, 184, 184);
+       border-radius: 50%;
+    }
+    
+    .earr{
+        padding: .5rem;
+        font-size: 125%;
+        font-weight: 600;
+    }
+    
+
+
+}
+
+
+
+
+@media(min-width:900px){
+    .socialcamo{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+    .ahead{
+        color: white;
+        margin: auto;
+        text-align: center;
+        padding: 10% 0 10% 0;
+      
+    }
+
+    .buttercup{
+        text-align: center;
+        padding: 2% 0 8% 0;
+    }
+    
+    .backg{
+        background-color: green;
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 100%;
+        
+       
+    }
+
+    .hand{
+        display: none;
+      
+      
+        }
+    
+    
+    .span{
+        font-size: 220%;
+        font-weight: 600;
+        line-height: .8;
+    
+    }
+    
+}
+
+
+
+@media(min-width:850px){
+    .ahead{
+        color: white;
+        padding: 15% 0% 0 2%;
+      
+    }
+
+    .hand{
+        display: grid;
+        justify-self: center;
+        padding: 15% 0% 0 15%;
+
+        }
+    
+        .backg{
+            background-color: green;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+           
+        }
+    
+    
+    .span{
+        font-size: 250%;
+        font-weight: 600;
+        line-height: .8;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+.finally,.finallyb{
+    text-align: left;
+    font-size: 110%;
+}
+
+.small{
+    font-size: 80%;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: .1% 1%;
+    margin: 0 2%;
+}
+
+
+
+
+
+.play,.apple{
+    font-size: 170%;
+}
+
+
+
+
+
+
+.btn:hover{
+color: wheat;
+}
+
+
+.buttercupa{
+    padding: 2% 2% 6%;
+}
+

@@ -1,0 +1,420 @@
+body{
+    margin: 0;
+    padding: .5rem 0 0 0;
+    box-sizing: border-box;background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 4%;
+
+}
+.navbar-items{
+    display: flex;
+}
+
+.navbar-lists{
+   list-style: none;
+}
+
+.brand-logo{
+    color: rgb(218, 142, 28);
+    padding: 0 0 0 1rem ;
+    font-size: 1.8rem;
+   
+}
+.link{
+    color: rgb(218, 142, 28);text-decoration: none;font-size: 1.5vw;
+    padding: 0 2rem 0 ;
+}
+
+.link:hover{
+    color: rgb(202, 99, 3);
+}
+
+
+
+
+.toggle-button{
+    display:none;
+    justify-content: space-between;
+  
+    height: 21px;
+    width: 30px;position: relative;
+    flex-direction: column;
+}
+
+.toggle-button .bar{
+    border-radius: 10px;width: 100%;
+  
+  margin: .2rem 0 0;
+    background-color: white;height: 50px;
+}
+
+
+
+
+@media(max-width:900px){
+
+
+    
+    .toggle-button, .bar{
+        display: flex;margin-left: 90%;bottom: 270%;position: relative;
+       
+    }
+.navbar-links{
+    display: none;width: 100%;
+}
+
+.navbar-links li{
+    text-align: center;padding: 1rem 0;
+}
+
+.nav-bar{
+flex-direction: column;align-items: flex-start;justify-content: space-between;
+}
+.navbar-links ul{
+    flex-direction: column;width: 100%;
+}
+.navbar-links.active{
+    display: flex;
+}
+
+.link{
+        font-size:1rem;
+}
+
+
+}
+
+
+
+
+.copy-heading{
+    color: rgb(202, 99, 3);
+    font-size: 230%;padding-bottom: 1rem 0 2rem;
+}
+
+
+.logo{
+    width: 30%;
+    height: 35%;
+}
+
+
+
+
+.wale{
+    color: white;
+}
+.copy{
+    color: rgb(202, 99, 3);
+    line-height: 2.5;font-size:160%;
+}
+#sales-copy{
+    padding: 0 4% 0;
+    position: relative;
+}
+.contact-us{
+    background-color:rgb(202, 99, 3);text-decoration: none;
+    color: white;border-radius: 5px;
+    padding:.7rem 1rem;font-size: 100%;
+    margin: 3rem 0 0 ;position: relative;
+ 
+}
+
+
+.contact-space{
+    padding: 4% 0 4% 0;
+}
+
+.contact-us:hover{
+    color: white;
+    background-color: tomato;
+}
+
+
+#home{
+    padding: 0 4% 0;
+}
+
+
+
+
+/*display styling*/
+
+
+
+@media  (max-width :765px){
+
+
+    .imgadis{
+      display: none;
+    }
+    
+    .imgbdis{
+        display: none;
+    }
+    
+    .imgcdis{
+        display: none;
+    }
+    
+    .imgddis{
+        display: none;
+      text-align: center;
+    }
+    
+    .imgedis{
+        display: none;
+    }
+    
+    .imgfdis{
+        display: none;
+    }
+    
+    .imga{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30%;
+        display: none;
+     
+    }
+    .imgb{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30%; display: none;
+    }
+    .imgc{
+        width: 100%;
+        height: 100%; display: none;
+    }
+    .imgd{
+        width: 100%;
+        height: 100%;
+        display: none;
+     
+      
+     
+    }
+    .imge{
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    .imgf{
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+}
+
+
+.products{
+    text-align: center;
+    color: white;
+    font-size: 280%;
+    padding:4% 0 0 0;
+}
+.our{
+    text-align: center;
+    color: white;
+    font-size: 280%;
+    padding:4% 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+.images{
+    max-width: 100%;
+    height: auto;
+    padding:5% 4% 0 4%;
+}
+.nopad{
+    padding-top: 0;
+}
+
+@media (min-width:765px){
+    .images{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.imga{
+    width: 100%;
+    height: auto;
+}
+.imgb{
+    width: 100%;
+    height: auto;
+}
+.imgc{
+    width: 100%;
+    height: 60%;
+}
+.imgd{
+    width: 100%;
+    height: 80%;
+  bottom: 17%;
+   position: relative;
+ 
+}
+.imge{
+    width: 100%;
+    height: 80%;
+    bottom: 17%;
+    position: relative;
+}
+.imgf{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about{
+    padding: 4% 4% ;
+}
+h2,h4{
+    color: white;align-self: auto; font-size: 290%;
+}
+h2{
+    padding: 2% 0 0 ;
+}
+
+.what{
+    padding: 5% 0 0 0 ;
+}
+.aboutcopy{
+    color: rgb(202, 99, 3); 
+    line-height: 2;font-size:160%;
+}
+
+
+#stressfree{
+    padding: 3% 4% 4%;text-align: center;
+}
+h5{
+    color: rgb(202, 99, 3); text-align: center;
+   padding: 2% 0 0 0 ;
+    font-size:160%;
+}
+
+
+.whatsapp{
+    background-color: darkgreen;
+    color: white;text-decoration: none;
+    text-align: center;padding: .5rem 1rem;
+    border-radius: .3rem;font-size: 1.3rem;
+  
+}
+.whatsappdiv{
+    text-align: center;padding-top: 7%;
+}
+
+.whatsapp:hover{
+    color: white;
+    background-color: limegreen;
+}
+
+
+footer{
+    color: white;font-size: 1.1rem;text-align: center;
+    padding: 3% 0 1% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
